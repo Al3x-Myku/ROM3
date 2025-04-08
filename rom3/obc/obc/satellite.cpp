@@ -63,7 +63,7 @@ void preinitialize_eeprom_params(void)
     Serial.println("Reflash firmware with SATELLITE_RESET_ANTENNA_STATUS 0.");
   }
 
-
+for(;;){}
 #endif
 }
 
